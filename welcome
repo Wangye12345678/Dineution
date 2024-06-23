@@ -1,0 +1,27 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+        <title>Example</title> 
+        <meta name="author" content="Prison Light"/> 
+        <meta name="description" content="A 
+simple example"/> 
+        <link rel="shortcut icon" 
+href="picture01.ico" type="image/x-icon" /> 
+    </head> 
+    <body> 
+        <h1>Hi ,html</h1>
+        <form action="submit-vote.php" method="post">
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" />
+              </p>
+              <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+              </p>
+              <button type="submit">Submit</button>
+          </form>
+         
+       
+    </body> 
+</html>
